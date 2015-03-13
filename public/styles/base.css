@@ -204,8 +204,27 @@ ul{
 p{
   font-size: .5em;
 }
-
+ 
+header{
+  text-align: center;
+  display: inline-block;
+}
 /* Navbar */
+
+#nav{
+  float: none;
+  margin: 0 auto;
+}
+
+#nav h1{
+  float: none;
+}
+
+#nav li{
+  display: inline-block;
+  float: none;
+  font-size: 1.5em;
+}
 
 #nav img{
   display: none;
@@ -217,12 +236,14 @@ p{
   display: none;
 }
 
-#left_button{
-  height: 1.5em;
+/* Instagram mobile */
+
+#instafeed{
+  width: 90%
 }
 
-#right_button{
-  height: 1.5em;
+#instafeed img{
+  width: 100%;
 }
 
 #left_col{

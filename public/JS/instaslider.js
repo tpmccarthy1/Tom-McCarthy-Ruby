@@ -33,6 +33,8 @@ $(document).ready(function(){
 			        slidesToScroll: 1,
 			        infinite: true,
 			        fade: false,
+			        prevArrow: false,
+	  				nextArrow: false
 			      }
 			    },		
 			  ]
